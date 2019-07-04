@@ -22,12 +22,6 @@ class App extends React.PureComponent {
           cover: nsyLogo
         },
         {
-          name: 'Eye of the Tiger',
-          singer: 'NSY',
-          musicSrc: 'https://res.cloudinary.com/hnkdyabc4/video/upload/v1562265025/audio/eye-of-the-tiger_laih7c.mp3',
-          cover: nsyLogo
-        },
-        {
           name: 'Another Brick in the Wall (part 2)',
           singer: 'NSY',
           musicSrc: 'https://res.cloudinary.com/hnkdyabc4/video/upload/v1562265045/audio/the-wall_kwlx2i.mp3',
