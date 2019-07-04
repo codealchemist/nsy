@@ -50,7 +50,7 @@ class App extends React.PureComponent {
       // remember: true,
       remove: false,
       // mode: 'full',
-      autoPlay: true,
+      autoPlay: false,
       showPlayMode: false,
       showLyric: false,
       preload: true,
