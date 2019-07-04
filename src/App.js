@@ -50,7 +50,13 @@ class App extends React.PureComponent {
       remember: true,
       remove: false,
       mode: 'full',
-      autoPlay: true,
+      autoPlay: false,
+      defaultPlayMode: 'order',
+      defaultPlayIndex: 0,
+      playIndex: 0,
+      showPlayMode: false,
+      showLyric: false,
+      preload: true
     }
   }
 
