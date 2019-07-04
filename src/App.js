@@ -3,7 +3,7 @@ import Player from 'react-jinke-music-player';
 import 'react-jinke-music-player/assets/index.css';
 import './App.css';
 
-const nsyLogo = 'https://res.cloudinary.com/hnkdyabc4/image/upload/w_200,c_fill,ar_1:1,g_auto,r_max,bo_2px_solid_white,b_rgb:262c35/v1562266909/img/nsy_z1hfvz.jpg'
+const nsyLogo = 'https://res.cloudinary.com/hnkdyabc4/image/upload/w_200,c_fill,ar_1:1,g_auto,r_max,bo_1px_solid_black,b_rgb:262c35/v1562266909/img/nsy_z1hfvz.jpg'
 
 class App extends React.PureComponent {
   state = {
@@ -34,7 +34,7 @@ class App extends React.PureComponent {
           cover: nsyLogo
         },
         {
-          name: 'Rehén',
+          name: 'Rehen',
           singer: 'NSY',
           musicSrc: 'https://res.cloudinary.com/hnkdyabc4/video/upload/v1562265041/audio/rehen_ykmps7.mp3',
           cover: nsyLogo
@@ -47,16 +47,18 @@ class App extends React.PureComponent {
         }
       ],
       theme: 'dark',
-      remember: true,
+      // remember: true,
       remove: false,
-      mode: 'full',
-      autoPlay: false,
-      defaultPlayMode: 'order',
-      defaultPlayIndex: 0,
-      playIndex: 0,
+      // mode: 'full',
+      autoPlay: true,
       showPlayMode: false,
       showLyric: false,
-      preload: true
+      preload: true,
+      showMiniProcessBar: true,
+      defaultPosition: {
+        top: 'calc(50% + 60px)',
+        left: 'calc(50% - 40px)'
+      }
     }
   }
 
