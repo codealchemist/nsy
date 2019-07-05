@@ -30,7 +30,7 @@ class App extends React.PureComponent {
         {
           name: 'Rehén',
           singer: 'NSY',
-          musicSrc: 'https://res.cloudinary.com/hnkdyabc4/video/upload/v1562265041/audio/rehen_ykmps7.mp3',
+          musicSrc: 'https://res.cloudinary.com/hnkdyabc4/video/upload/v1562291630/audio/rehen_j2pyg8.mp3',
           cover: nsyLogo
         },
         {
