@@ -4,7 +4,7 @@ import 'react-jinke-music-player/assets/index.css'
 import './App.css'
 
 const nsyLogo =
-  'https://res.cloudinary.com/hnkdyabc4/image/upload/w_200,c_fill,ar_1:1,g_auto,r_max,bo_1px_solid_black,b_rgb:262c35/v1562266909/img/nsy_z1hfvz.jpg'
+  'https://res.cloudinary.com/hnkdyabc4/image/upload/v1562810075/img/logo-3_prdito.jpg'
 
 class App extends React.PureComponent {
   state = {
