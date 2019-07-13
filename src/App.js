@@ -9,9 +9,11 @@ class App extends React.PureComponent {
   render() {
     return (
       <Router>
-        <Header />
-        <Route path="/" exact component={WelcomePage} />
-        <Route path="/concert" exact component={InConcertPage} />
+        <div className="App">
+          <Header />
+          <Route path="/" exact component={WelcomePage} />
+          <Route path="/concert" exact component={InConcertPage} />
+        </div>
       </Router>
     )
   }

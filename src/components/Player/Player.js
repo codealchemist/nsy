@@ -1,9 +1,25 @@
 import React from 'react'
+import styled from 'styled-components'
 import AudioPlayer from 'react-jinke-music-player'
 import config from 'config/index'
 import 'react-jinke-music-player/assets/index.css'
 
 const { logo } = config
+
+const Container = styled.div`
+  .music-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    .audio-circle-process-bar {
+      top: -70px;
+      left: 10px;
+    }
+  }
+`
 
 export default class Player extends React.PureComponent {
   state = {
@@ -60,7 +76,7 @@ export default class Player extends React.PureComponent {
       showPlayMode: false,
       showLyric: false,
       preload: true,
-      showMiniProcessBar: true,
+      showMiniProcessBar: false,
       defaultPosition: {
         top: 'calc(50% + 60px)',
         left: 'calc(50% - 40px)'
@@ -68,11 +84,11 @@ export default class Player extends React.PureComponent {
     }
   }
 
-  render () {
+  render() {
     return (
-      <div className="App">
-          <AudioPlayer {...this.state.options} />
-        </div>
+      <Container>
+        <AudioPlayer {...this.state.options} />
+      </Container>
     )
   }
 }

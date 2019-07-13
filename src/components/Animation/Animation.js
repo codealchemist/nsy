@@ -18,7 +18,7 @@ const RotatingLogo = styled.div`
     from {
       transform: rotate(0deg);
     }
-  
+
     to {
       transform: rotate(360deg);
     }
@@ -28,7 +28,7 @@ const RotatingLogo = styled.div`
   height: 100%;
   background-image: url(${logo});
   background-repeat: no-repeat;
-  background-size: auto 85%;
+  background-size: contain;
   background-position: center;
   position: fixed;
   top: 0;
@@ -37,7 +37,7 @@ const RotatingLogo = styled.div`
 `
 
 export default class Animation extends React.PureComponent {
-  render () {
+  render() {
     return (
       <Container>
         <RotatingLogo />
