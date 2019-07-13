@@ -1,83 +1,20 @@
 import React from 'react'
-import Player from 'react-jinke-music-player'
-import 'react-jinke-music-player/assets/index.css'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import Header from 'components/Header'
+import WelcomePage from 'pages/WelcomePage'
+import InConcertPage from 'pages/InConcertPage'
 import './App.css'
 
-const nsyLogo =
-  'https://res.cloudinary.com/hnkdyabc4/image/upload/v1562810075/img/logo-3_prdito.jpg'
-
 class App extends React.PureComponent {
-  state = {
-    options: {
-      audioLists: [
-        {
-          name: 'Come Together',
-          singer: 'NSY',
-          musicSrc:
-            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1562265042/audio/02-come-together_rtlzff.mp3',
-          cover: nsyLogo
-        },
-        {
-          name: 'Eye of the Tiger',
-          singer: 'NSY',
-          musicSrc:
-            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1562265025/audio/eye-of-the-tiger_laih7c.mp3',
-          cover: nsyLogo
-        },
-        {
-          name: 'Estrella',
-          singer: 'NSY',
-          musicSrc:
-            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1562449054/audio/the-reef_t29ztu.mp3',
-          cover: nsyLogo
-        },
-        {
-          name: 'Another Brick in the Wall (part 2)',
-          singer: 'NSY',
-          musicSrc:
-            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1562265045/audio/the-wall_kwlx2i.mp3',
-          cover: nsyLogo
-        },
-        {
-          name: 'Rehén',
-          singer: 'NSY',
-          musicSrc:
-            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1562291630/audio/rehen_j2pyg8.mp3',
-          cover: nsyLogo
-        },
-        {
-          name: 'Under Pressure',
-          singer: 'NSY',
-          musicSrc:
-            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1562265046/audio/under-pressure_av2y1j.mp3',
-          cover: nsyLogo
-        }
-      ],
-      theme: 'dark',
-      // remember: true,
-      remove: false,
-      // mode: 'full',
-      autoPlay: false,
-      showPlayMode: false,
-      showLyric: false,
-      preload: true,
-      showMiniProcessBar: true,
-      defaultPosition: {
-        top: 'calc(50% + 60px)',
-        left: 'calc(50% - 40px)'
-      }
-    }
-  }
-
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1>NSY</h1>
-        </header>
-
-        <Player {...this.state.options} />
-      </div>
+      <Router>
+        <div className="App">
+          <Header />
+          <Route path="/" exact component={WelcomePage} />
+          <Route path="/concert" exact component={InConcertPage} />
+        </div>
+      </Router>
     )
   }
 }
