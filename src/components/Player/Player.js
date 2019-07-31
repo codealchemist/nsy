@@ -29,35 +29,35 @@ export default class Player extends React.PureComponent {
           name: 'Come Together',
           singer: 'NSY',
           musicSrc:
-            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1562265042/audio/02-come-together_rtlzff.mp3',
-          cover: logo
-        },
-        {
-          name: 'Eye of the Tiger',
-          singer: 'NSY',
-          musicSrc:
-            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1562265025/audio/eye-of-the-tiger_laih7c.mp3',
-          cover: logo
-        },
-        {
-          name: 'Estrella',
-          singer: 'NSY',
-          musicSrc:
-            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1562449054/audio/the-reef_t29ztu.mp3',
-          cover: logo
-        },
-        {
-          name: 'Another Brick in the Wall (part 2)',
-          singer: 'NSY',
-          musicSrc:
-            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1562265045/audio/the-wall_kwlx2i.mp3',
+            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1564587195/audio/vivo-teatro-municipio-ldz-2019-07-16/1-come-together_tnrnrs.mp3',
           cover: logo
         },
         {
           name: 'Rehén',
           singer: 'NSY',
           musicSrc:
-            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1562291630/audio/rehen_j2pyg8.mp3',
+            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1564587196/audio/vivo-teatro-municipio-ldz-2019-07-16/2-rehen_f2t96z.mp3',
+          cover: logo
+        },
+        {
+          name: 'Another Brick in the Wall (part 2)',
+          singer: 'NSY',
+          musicSrc:
+            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1564587190/audio/vivo-teatro-municipio-ldz-2019-07-16/3-the-wall_sjwp9v.mp3',
+          cover: logo
+        },
+        {
+          name: 'Estrella',
+          singer: 'NSY',
+          musicSrc:
+            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1564587185/audio/vivo-teatro-municipio-ldz-2019-07-16/4-estrella_qb0ujw.mp3',
+          cover: logo
+        },
+        {
+          name: 'Eye of the Tiger',
+          singer: 'NSY',
+          musicSrc:
+            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1564587193/audio/vivo-teatro-municipio-ldz-2019-07-16/5-eye-of-the-tiger_wvgpfr.mp3',
           cover: logo
         },
         {
