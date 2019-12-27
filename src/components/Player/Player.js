@@ -26,45 +26,66 @@ export default class Player extends React.PureComponent {
     options: {
       audioLists: [
         {
+          name: 'Intro',
+          singer: 'NSY',
+          musicSrc:
+            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1577487568/audio/nsy-vivo-wolf-2019/01-intro_mupmfn.mp3',
+          cover: logo
+        },
+        {
           name: 'Come Together',
           singer: 'NSY',
           musicSrc:
-            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1564587195/audio/vivo-teatro-municipio-ldz-2019-07-16/1-come-together_tnrnrs.mp3',
+            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1577487630/audio/nsy-vivo-wolf-2019/02-come-together_rmgwho.mp3',
           cover: logo
         },
         {
           name: 'Rehén',
           singer: 'NSY',
           musicSrc:
-            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1564587196/audio/vivo-teatro-municipio-ldz-2019-07-16/2-rehen_f2t96z.mp3',
-          cover: logo
-        },
-        {
-          name: 'Another Brick in the Wall (part 2)',
-          singer: 'NSY',
-          musicSrc:
-            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1564587190/audio/vivo-teatro-municipio-ldz-2019-07-16/3-the-wall_sjwp9v.mp3',
-          cover: logo
-        },
-        {
-          name: 'Estrella',
-          singer: 'NSY',
-          musicSrc:
-            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1564587185/audio/vivo-teatro-municipio-ldz-2019-07-16/4-estrella_qb0ujw.mp3',
+            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1577487671/audio/nsy-vivo-wolf-2019/03-rehen_mo8dpd.mp3',
           cover: logo
         },
         {
           name: 'Eye of the Tiger',
           singer: 'NSY',
           musicSrc:
-            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1564587193/audio/vivo-teatro-municipio-ldz-2019-07-16/5-eye-of-the-tiger_wvgpfr.mp3',
+            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1577487637/audio/nsy-vivo-wolf-2019/04-eye-of-the-tiger_f2ehpx.mp3',
+          cover: logo
+        },
+        {
+          name: 'Another Brick in the Wall (part 2)',
+          singer: 'NSY',
+          musicSrc:
+            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1577487626/audio/nsy-vivo-wolf-2019/05-the-wall_a4whca.mp3',
+          cover: logo
+        },
+        {
+          name: 'Estrella',
+          singer: 'NSY',
+          musicSrc:
+            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1577487680/audio/nsy-vivo-wolf-2019/06-estrella_xrafg0.mp3',
+          cover: logo
+        },
+        {
+          name: 'Triste Sirena',
+          singer: 'NSY',
+          musicSrc:
+            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1577487665/audio/nsy-vivo-wolf-2019/07-triste-sirena_trdmhb.mp3',
           cover: logo
         },
         {
           name: 'Under Pressure',
           singer: 'NSY',
           musicSrc:
-            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1562265046/audio/under-pressure_av2y1j.mp3',
+            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1577487675/audio/nsy-vivo-wolf-2019/08-under-pressure_mbrcut.mp3',
+          cover: logo
+        },
+        {
+          name: 'Cicatrices',
+          singer: 'NSY',
+          musicSrc:
+            'https://res.cloudinary.com/hnkdyabc4/video/upload/v1577487690/audio/nsy-vivo-wolf-2019/09-cicatrices_dl7lbb.mp3',
           cover: logo
         }
       ],
